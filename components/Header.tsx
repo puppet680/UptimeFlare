@@ -25,7 +25,7 @@ export default function Header({ style }: { style?: React.CSSProperties }) {
   return (
     <header className={classes.header} style={style}>
       <Container size="md" className={classes.inner}>
-        <div>
+        {/* <div>
           <a
             href={location.pathname == '/' ? 'https://github.com/lyc8503/UptimeFlare' : '/'}
             target={location.pathname == '/' ? '_blank' : undefined}
@@ -38,7 +38,7 @@ export default function Header({ style }: { style?: React.CSSProperties }) {
               alt="logo"
             />
           </a>
-        </div>
+        </div> */}
 
         <Group gap={5} visibleFrom="sm">
           {links?.map(linkToElement)}
